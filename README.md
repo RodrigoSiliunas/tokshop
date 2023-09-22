@@ -1,9 +1,9 @@
 # Tokshop: Sistema de Dropshipping
 
-![GitHub repo size](https://img.shields.io/github/repo-size/seu-usuario/seu-repositorio)
-![GitHub stars](https://img.shields.io/github/stars/seu-usuario/seu-repositorio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/seu-usuario/seu-repositorio?style=social)
-![GitHub license](https://img.shields.io/github/license/seu-usuario/seu-repositorio)
+![GitHub repo size](https://img.shields.io/github/repo-size/RodrigoSiliunas/tokshop)
+![GitHub stars](https://img.shields.io/github/stars/RodrigoSiliunas/tokshop)
+![GitHub forks](https://img.shields.io/github/forks/RodrigoSiliunas/tokshop)
+![GitHub license](https://img.shields.io/github/license/RodrigoSiliunas/tokshop)
 
 Um sistema de Dropshipping completo dividido em Backend e Frontend, desenvolvido com as mais recentes tecnologias para tornar o processo de gestão de produtos e pedidos simples e eficiente.
 
