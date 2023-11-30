@@ -1,7 +1,7 @@
 <template>
-  <div class="container py-5 bg-dark">
-    <div class="row">
-      <div class="col-3 d-flex flex-column gap-4">
+  <div class="container py-5">
+    <div class="row g-3">
+      <div class="col-3 col-lg-4 col-xl-3 d-none d-lg-flex flex-column gap-4">
         <div class="bg-primary rounded-4 pb-5">
           <div class="h-100 bg-white rounded-4 p-2 d-flex flex-column gap-5">
             <div>
@@ -29,9 +29,9 @@
         </div>
         <ButtonAtom text="FILTRAR" />
       </div>
-      <div class="col">
+      <div class="col-12 col-lg">
         <div class="row g-3">
-          <div class="col-4" v-for="product in products" :key="product">
+          <div class="col-12 col-md-6 col-xl-4" v-for="product in products" :key="product">
             <ProductCardMolecule />
           </div>
         </div>
@@ -49,7 +49,7 @@ export default {
   components: { ProductCardMolecule, CheckBoxAtom, ButtonAtom },
   data() {
     return {
-      products: Array.from({ length: 10 }),
+      products: Array.from({ length: 21 }),
       categories: [
         "Malas e Bolsas",
         "Portatéis e Acessórios",
